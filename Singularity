@@ -1,5 +1,5 @@
 bootstrap: docker
-from: ubuntu:latest
+from: ubuntu:16.04
 
 %post
 	
