@@ -16,6 +16,6 @@ from: ubuntu:16.04
 
 
 %environment
-	export LC_ALL=C
+    export LC_ALL=C
     export PATH=/bin:/sbin:/usr/bin:/usr/sbin:$PATH
-    export PSITURK_GLOBAL_CONFIG_LOCATION=/psiturk/
+    export PSITURK_GLOBAL_CONFIG_LOCATION=~/.psiturkconfig
